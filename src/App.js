@@ -6,12 +6,6 @@ import Divider from '@material-ui/core/Divider';
 import { Slide } from 'react-slideshow-image';
 import './App.css';
 
-const slideImages = [
-  './photos/divingphoto.jpg',
-  './photos/hittingVsUF.jpg',
-  './photos/teamHighFive.jpg'
-];
-
 const properties = {
   duration: 5000,
   transitionDuration: 500,
@@ -78,7 +72,7 @@ class App extends Component {
               <Slide {...properties}>
               <div className="each-slide">
                  <div className="image-container">
-                   <img src={require('./photos/divingphoto.jpg')} alt = "not loading" style = {{width: 200, height: 150}} />
+                   <img src={require('./photos/divingphoto.jpg')} alt = "not loading" />
                  </div>
                  <h2>First Slide</h2>
                </div>
