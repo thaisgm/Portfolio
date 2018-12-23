@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import Divider from '@material-ui/core/Divider';
 import './App.css';
@@ -25,7 +24,7 @@ class App extends Component {
             <Divider />
             <List component="nav">
               <ListItem button>
-                <ListItemText primary="Trash" />
+                <ListItemText primary="Softball Schedule 2019" />
               </ListItem>
             </List>
       </div>
