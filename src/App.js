@@ -4,15 +4,12 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import Divider from '@material-ui/core/Divider';
 import { Slide } from 'react-slideshow-image';
-import divingPhoto from 'photos/divingphoto.jpg';
-import hittingVsUF from 'photos/hittingVsUF.jpg';
-import teamHighFive from 'photos/teamHighFive.jpg';
 import './App.css';
 
 const slideImages = [
-  divingPhoto,
-  hittingVsUF,
-  teamHighFive
+  'photos/divingphoto.jpg',
+  'photos/hittingVsUF.jpg',
+  'photos/teamHighFive.jpg'
 ];
 
 const properties = {
