@@ -7,11 +7,11 @@ import { Slide } from 'react-slideshow-image';
 import './App.css';
 
 const slideImages = [
-  '/Users/thaisgonzalez/horizons/projects/Portfolio/src/photos/DivingPhoto.png',
-  '/Users/thaisgonzalez/horizons/projects/Portfolio/src/photos/HittingPhoto.png',
-  '/Users/thaisgonzalez/horizons/projects/Portfolio/src/photos/HittingVsUF.png',
-  '/Users/thaisgonzalez/horizons/projects/Portfolio/src/photos/TeamLinePhoto.png',
-  '/Users/thaisgonzalez/horizons/projects/Portfolio/src/photos/teamPhoto.png'
+  'DivingPhoto.png',
+  'HittingPhoto.png',
+  'HittingVsUF.png',
+  'TeamLinePhoto.png',
+  'teamPhoto.png'
 ];
 
 const properties = {
