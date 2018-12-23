@@ -6,7 +6,8 @@
     "@material-ui/core": "^3.7.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-scripts": "2.1.1"
+    "react-scripts": "2.1.1",
+    "react-slideshow-image": "^1.0.10"
   },
   "scripts": {
     "start": "react-scripts start",

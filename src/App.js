@@ -3,7 +3,24 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import Divider from '@material-ui/core/Divider';
+import { Slide } from 'react-slideshow-image';
 import './App.css';
+
+const slideImages = [
+  'src/photos/DivingPhoto.png',
+  'src/photos/HittingPhoto.png',
+  'src/photos/HittingVsUF.png',
+  'src/photos/TeamLinePhoto.png',
+  'src/photos/teamPhoto.png'
+];
+
+const properties = {
+  duration: 5000,
+  transitionDuration: 500,
+  infinite: true,
+  indicators: true,
+  arrows: true
+}
 
 class App extends Component {
   constructor(props){
@@ -58,6 +75,25 @@ class App extends Component {
                   <ListItemText primary="Softball Schedule 2019" />
                 </ListItem>
               </List>
+            </div>
+            <div className = "Slideshow">
+              <Slide {...properties}>
+                <div className="each-slide">
+                  <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
+                    <span>Slide 1</span>
+                  </div>
+                </div>
+                <div className="each-slide">
+                  <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
+                    <span>Slide 2</span>
+                  </div>
+                </div>
+                <div className="each-slide">
+                  <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
+                    <span>Slide 3</span>
+                  </div>
+                </div>
+              </Slide>
             </div>
             <p className = "body"> My name is Thais Gonzalez.
             I grew up in South Florida, playing sports for most of my life and
