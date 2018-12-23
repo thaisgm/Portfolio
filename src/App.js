@@ -42,10 +42,7 @@ class App extends Component {
   render() {
     if (this.state.aboutMePage){
       return (
-        <div className="App">
-            <p>
-              Thais Gonzalez
-            </p>
+        <div>
             <div className="Menu">
               <List component="nav">
                 <ListItem button onMouseDown = {() => this.back()}>
@@ -61,6 +58,7 @@ class App extends Component {
                   <ListItemText primary="Softball Schedule 2019" />
                 </ListItem>
               </List>
+              <p className = "title">Thais Gonzalez</p>
             </div>
         </div>
       );
@@ -108,7 +106,7 @@ class ProjectsPage extends Component {
 }
 
 class SchedulePage extends Component {
-  
+
   render() {
     return (
       <div>
