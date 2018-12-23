@@ -51,7 +51,7 @@ class App extends Component {
   render() {
     if (this.state.aboutMePage){
       return (
-        <div>
+        <div className = "MainPage">
             <div className="Menu">
               <List component="nav">
                 <ListItem button onMouseDown = {() => this.back()}>
