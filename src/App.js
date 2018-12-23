@@ -58,8 +58,8 @@ class App extends Component {
                   <ListItemText primary="Softball Schedule 2019" />
                 </ListItem>
               </List>
-              <p className = "title">Thais Gonzalez</p>
             </div>
+            <p className = "title">Thais Gonzalez</p>
         </div>
       );
     } else if (this.state.projectsPage){
