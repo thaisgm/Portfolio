@@ -67,9 +67,10 @@ class App extends Component {
             Business. After my freshman year,I found that I was exactly passionate
             about accounting, finance, or operations management. I decided to
             explore a field that I had always love, but never dove into: technology.
-            After my first structured programming class, I was hooked.
-            But after that class, essentially all I was capable of doing was
-            coding board games in the console of XCode. I wanted to
+            </p>
+            <p className = "body">After my first structured programming class, I
+            was hooked.But after that class, essentially all I was capable of
+            doing was coding board games in the console of XCode. I wanted to
             gain actionable and applicable coding knowledge, and applied for a
             Software Engineering Fellowship at Horizons School of Technology in
             San Francisco. I was accepted and spent 12 weeks in SF studying
