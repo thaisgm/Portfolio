@@ -78,19 +78,19 @@ class App extends Component {
               <Slide {...properties}>
               <div className="each-slide">
                  <div className="image-container">
-                   <img src={slideImages[0]} alt = "not loading"/>
+                   <img src={require('./photos/divingphoto.jpg')} alt = "not loading" style = {{width: 200, height: 150}} />
                  </div>
                  <h2>First Slide</h2>
                </div>
                <div className="each-slide">
                  <div className="image-container">
-                   <img src={slideImages[1]} alt = "not loading"/>
+                   <img src={require('./photos/hittingVsUF.jpg')} alt = "not loading"/>
                  </div>
                  <h2>Second Slide</h2>
                </div>
                <div className="each-slide">
                  <div className="image-container">
-                   <img src={slideImages[2]} alt = "not loading"/>
+                   <img src={require('./photos/teamHighFive.jpg')} alt = "not loading"/>
                  </div>
                  <h2>Third Slide</h2>
                </div>
