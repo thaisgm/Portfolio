@@ -64,9 +64,9 @@ class App extends Component {
             graduated from St. Thomas Aquinas High School as a first-team all
             state player with nearly 25 AP college credits. I committed to play softball at
             the University of Michigan, and was accepted into the Ross School of
-            Business. After my freshman year,I found that I was exactly passionate
-            about accounting, finance, or operations management. I decided to
-            explore a field that I had always love, but never dove into: technology.
+            Business. After my freshman year, I found that I couldn't see myself
+            pursuing a traditional business career. I decided to explore a field
+            that I had always love, but never dove into: technology.
             </p>
             <p className = "body1">After my first structured programming class, I
             was hooked. But after that class, essentially all I was capable of
