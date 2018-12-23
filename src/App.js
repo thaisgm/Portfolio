@@ -7,11 +7,9 @@ import { Slide } from 'react-slideshow-image';
 import './App.css';
 
 const slideImages = [
-  'DivingPhoto.png',
-  'HittingPhoto.png',
-  'HittingVsUF.png',
-  'TeamLinePhoto.png',
-  'teamPhoto.png'
+  'photos/divingphoto.jpg',
+  'photos/teamHighFive.jpg',
+  'photos/hittingVsUF.jpg'
 ];
 
 const properties = {
