@@ -62,7 +62,7 @@ class App extends Component {
             <p className = "body"> My name is Thais Gonzalez.
             I grew up in South Florida, playing sports for most of my life and
             graduated from St. Thomas Aquinas High School as a first-team all
-            state player with nearly a 5.0 GPA. I committed to play softball at
+            state player with nearly 25 AP college credits. I committed to play softball at
             the University of Michigan, and was accepted into the Ross School of
             Business. After my freshman year,I found that I was exactly passionate
             about accounting, finance, or operations management. I decided to
@@ -79,7 +79,8 @@ class App extends Component {
             solution with the customer's needs in mind, so when I returned to
             Michigan, I decided to pursue my MicroMasters in User Experience,
             Research, and Design as well as a minor in Computer Science. I created
-            this website to show the projects I've worked on. Thanks for stopping by, and Go Blue!</p>
+            this website to show the projects I've worked on and the process and
+            story behind each of them. Thanks for stopping by, and Go Blue!</p>
         </div>
       );
     } else if (this.state.projectsPage){
