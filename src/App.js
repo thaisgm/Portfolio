@@ -66,41 +66,69 @@ class App extends Component {
       );
     } else if (this.state.projectsPage){
       return(
-        <ProjectsPage aboutMePage = {() => this.back()}/>
+        <ProjectsPage aboutMePage = {() => this.back()}
+        myProjectsPage = {() => this.myProjects()}
+        softballSchedulePage = {() => this.softballSchedule()}/>
       )
     } else if (this.state.schedulePage){
       return (
-        <SchedulePage aboutMePage = {() => this.back()}/>
+        <SchedulePage aboutMePage = {() => this.back()}
+        myProjectsPage = {() => this.myProjects()}
+        softballSchedulePage = {() => this.softballSchedule()}/>
       )
     }
   }
 }
 
 class ProjectsPage extends Component {
-  constructor(props){
-    super(props);
-  }
 
   render() {
     return (
       <div>
-        <p> My List of Projects:</p>
-        <p className = "back" onMouseDown = {() => this.props.aboutMePage()}>Back to Home</p>
+        <div className="Menu">
+          <List component="nav">
+            <ListItem button onMouseDown = {() => this.props.aboutMePage()}>
+              <ListItemText primary="About Me" />
+            </ListItem>
+            <ListItem button onMouseDown = {() => this.props.myProjectsPage()}>
+              <ListItemText primary="My Projects" />
+            </ListItem>
+          </List>
+        <Divider />
+          <List component="nav">
+            <ListItem button onMouseDown = {() => this.props.softballSchedulePage()}>
+              <ListItemText primary="Softball Schedule 2019" />
+            </ListItem>
+          </List>
+        </div>
+        <p className = "title"> My List of Projects:</p>
       </div>
     );
   }
 }
 
 class SchedulePage extends Component {
-  constructor(props){
-    super(props);
-  }
-
+  
   render() {
     return (
       <div>
-        <p> Michigan Softball 2019 Schedule:</p>
-        <p className = "back" onMouseDown = {() => this.props.aboutMePage()}>Back to Home</p>
+        <div className="Menu">
+          <List component="nav">
+            <ListItem button onMouseDown = {() => this.props.aboutMePage()}>
+              <ListItemText primary="About Me" />
+            </ListItem>
+            <ListItem button onMouseDown = {() => this.props.myProjectsPage()}>
+              <ListItemText primary="My Projects" />
+            </ListItem>
+          </List>
+        <Divider />
+          <List component="nav">
+            <ListItem button onMouseDown = {() => this.props.softballSchedulePage()}>
+              <ListItemText primary="Softball Schedule 2019" />
+            </ListItem>
+          </List>
+        </div>
+        <p className = "title"> Michigan Softball 2019 Schedule:</p>
       </div>
     );
   }
