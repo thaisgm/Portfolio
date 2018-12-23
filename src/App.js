@@ -68,7 +68,7 @@ class App extends Component {
             about accounting, finance, or operations management. I decided to
             explore a field that I had always love, but never dove into: technology.
             </p>
-            <p className = "body">After my first structured programming class, I
+            <p className = "body1">After my first structured programming class, I
             was hooked.But after that class, essentially all I was capable of
             doing was coding board games in the console of XCode. I wanted to
             gain actionable and applicable coding knowledge, and applied for a
