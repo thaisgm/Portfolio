@@ -69,7 +69,7 @@ class App extends Component {
             explore a field that I had always love, but never dove into: technology.
             </p>
             <p className = "body1">After my first structured programming class, I
-            was hooked.But after that class, essentially all I was capable of
+            was hooked. But after that class, essentially all I was capable of
             doing was coding board games in the console of XCode. I wanted to
             gain actionable and applicable coding knowledge, and applied for a
             Software Engineering Fellowship at Horizons School of Technology in
