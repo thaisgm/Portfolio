@@ -76,21 +76,40 @@ class App extends Component {
             </div>
             <div className = "Slideshow">
               <Slide {...properties}>
-                <div className="each-slide">
-                  <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
-                    <span>Slide 1</span>
-                  </div>
-                </div>
-                <div className="each-slide">
-                  <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
-                    <span>Slide 2</span>
-                  </div>
-                </div>
-                <div className="each-slide">
-                  <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
-                    <span>Slide 3</span>
-                  </div>
-                </div>
+              <div className="each-slide">
+                 <div className="image-container">
+                   <img alt = "" src={slideImages[0]} />
+                 </div>
+                 <h2>First Slide</h2>
+               </div>
+               <div className="each-slide">
+                 <div className="image-container">
+                   <img alt = "" src={slideImages[1]} />
+                 </div>
+                 <h2>Second Slide</h2>
+               </div>
+               <div className="each-slide">
+                 <div className="image-container">
+                   <img alt = "" src={slideImages[2]} />
+                 </div>
+                 <h2>Third Slide</h2>
+               </div>
+
+                // <div className="each-slide">
+                //   <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
+                //     <span>Slide 1</span>
+                //   </div>
+                // </div>
+                // <div className="each-slide">
+                //   <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
+                //     <span>Slide 2</span>
+                //   </div>
+                // </div>
+                // <div className="each-slide">
+                //   <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
+                //     <span>Slide 3</span>
+                //   </div>
+                // </div>
               </Slide>
             </div>
             <p className = "body"> My name is Thais Gonzalez.
