@@ -74,19 +74,16 @@ class App extends Component {
                  <div className="image-container">
                    <img src={require('./photos/divingphoto.jpg')} alt = "not loading" />
                  </div>
-                 <h2>First Slide</h2>
                </div>
                <div className="each-slide">
                  <div className="image-container">
                    <img src={require('./photos/hittingVsUF.jpg')} alt = "not loading"/>
                  </div>
-                 <h2>Second Slide</h2>
                </div>
                <div className="each-slide">
                  <div className="image-container">
                    <img src={require('./photos/teamHighFive.jpg')} alt = "not loading"/>
                  </div>
-                 <h2>Third Slide</h2>
                </div>
               </Slide>
             </div>
