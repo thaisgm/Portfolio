@@ -38,5 +38,7 @@
 }
 
 .image-container {
-  width: 500px;
+  position: absolute;
+  left: 300px;
+  right: 50px;
 }
