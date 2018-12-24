@@ -157,8 +157,10 @@ class ProjectsPage extends Component {
           <p className = "Description2">Gifter is a fun, mobile application I worked
           on with a group during a short hackathon. Our goal was to come up with
           something light-hearted and creative. We decided to build an app that
-          allowed you to send funny, random messages to your friends. We used
-          React Native and Twillio to make this happen.</p>
+          allowed you to send funny, random messages to your friends. Our vision
+          was an expansion of the popularity of emoticons by sending something more
+          significant: a uniquely curated, one-of-a-kind content text message.
+          We used React Native and Twillio to make this happen.</p>
           <button className = "ProjectButton2"> Click here to learn more</button>
       </div>
     );
