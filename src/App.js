@@ -213,7 +213,7 @@ class SFSFPage extends Component {
           <span>Photo of me and my Team at GIT Hackathon. Credits to Marie-Rose Ramboz.</span>
         <p>Our idea was a accessible, quick process busy parents who potentially
         didn't speak english could use to find the best school for their child.</p>
-          <img src = {require('./photos/SFDiagram')} alt = "not loading"/>
+          <img src = {require('./photos/SFDiagram.png')} alt = "not loading"/>
           <span>Our vision for SF School Finder.</span>
         <p>We came up with a quiz for parents to take in order to rank the
         importance of certain criteria like distance, after school programs, etc.
