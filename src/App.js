@@ -1,8 +1,4 @@
 import React, { Component } from 'react';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemText from '@material-ui/core/ListItemText';
-import Divider from '@material-ui/core/Divider';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import MenuItem from '@material-ui/core/MenuItem';
@@ -130,22 +126,19 @@ class ProjectsPage extends Component {
   render() {
     return (
       <div>
-        <div className="Menu">
-          <List component="nav">
-            <ListItem button onMouseDown = {() => this.props.aboutMePage()}>
-              <ListItemText primary="About Me" />
-            </ListItem>
-            <ListItem button onMouseDown = {() => this.props.myProjectsPage()}>
-              <ListItemText primary="My Projects" />
-            </ListItem>
-          </List>
-        <Divider />
-          <List component="nav">
-            <ListItem button onMouseDown = {() => this.props.softballSchedulePage()}>
-              <ListItemText primary="Softball Schedule 2019" />
-            </ListItem>
-          </List>
-        </div>
+      <AppBar className = "menuBar" position="sticky">
+        <Toolbar variant="dense">
+          <MenuItem className= "menuButton" onMouseDown = {() => this.props.aboutMePage()}>
+            ABOUT ME
+          </MenuItem>
+          <MenuItem className= "menuButton" onMouseDown = {() => this.props.myProjectsPage()}>
+            MY PROJECTS
+          </MenuItem>
+          <MenuItem className= "menuButton" onMouseDown = {() => this.props.softballSchedulePage()}>
+            MICHIGAN SOFTBALL SCHEDULE
+          </MenuItem>
+        </Toolbar>
+      </AppBar>
         <p className = "title"> My List of Projects:</p>
       </div>
     );
@@ -158,20 +151,19 @@ class SchedulePage extends Component {
     return (
       <div>
         <div className="Menu">
-          <List component="nav">
-            <ListItem button onMouseDown = {() => this.props.aboutMePage()}>
-              <ListItemText primary="About Me" />
-            </ListItem>
-            <ListItem button onMouseDown = {() => this.props.myProjectsPage()}>
-              <ListItemText primary="My Projects" />
-            </ListItem>
-          </List>
-        <Divider />
-          <List component="nav">
-            <ListItem button onMouseDown = {() => this.props.softballSchedulePage()}>
-              <ListItemText primary="Softball Schedule 2019" />
-            </ListItem>
-          </List>
+        <AppBar className = "menuBar" position="sticky">
+          <Toolbar variant="dense">
+            <MenuItem className= "menuButton" onMouseDown = {() => this.props.aboutMePage()}>
+              ABOUT ME
+            </MenuItem>
+            <MenuItem className= "menuButton" onMouseDown = {() => this.props.myProjectsPage()}>
+              MY PROJECTS
+            </MenuItem>
+            <MenuItem className= "menuButton" onMouseDown = {() => this.props.softballSchedulePage()}>
+              MICHIGAN SOFTBALL SCHEDULE
+            </MenuItem>
+          </Toolbar>
+        </AppBar>
         </div>
         <p className = "title"> Michigan Softball 2019 Schedule:</p>
       </div>
