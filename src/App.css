@@ -4,7 +4,6 @@
 
 .MainPage {
   overflow: auto;
-  background-image: url($('./photos/stadium.jpeg'));
 }
 
 .title {
@@ -63,7 +62,8 @@
   margin-left: 200px;
   border-radius: 4px;
   background-color: #808080;
-  padding: 10px;
+  font-size: 16px;
+  padding: 15px;
   color: black;
 }
 
@@ -105,7 +105,8 @@
   margin-right: 200px;
   border-radius: 4px;
   background-color: #808080;
-  padding: 10px;
+  font-size: 16px;
+  padding: 15px;
   color: black;
 }
 

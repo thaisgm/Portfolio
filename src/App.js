@@ -135,7 +135,7 @@ class ProjectsPage extends Component {
           schools without the chance of attending another. We aimed to solve this issue by
           creating a website that allowed parents to easily find the right school
           for their child by rating a few preferences.</p>
-          <button className = "ProjectButton1"> Click here to learn more</button>
+          <button className = "ProjectButton1">LEARN MORE...</button>
         <img className = "ProjectPic2b" src = {require('./photos/MainScreenDemo.png')} alt = "not loading"/>
         <img className = "ProjectPic2" src = {require('./photos/GifterDemo.png')} alt = "not loading"/>
           <h2 className = "ProjectHeader2">Gifter</h2>
@@ -146,7 +146,7 @@ class ProjectsPage extends Component {
           was an expansion of the popularity of emoticons by sending something more
           significant: a uniquely curated, one-of-a-kind content text message.
           We used React Native and Twillio to make this happen.</p>
-          <button className = "ProjectButton2"> Click here to learn more</button>
+          <button className = "ProjectButton2"> LEARN MORE...</button>
       </div>
     );
   }
