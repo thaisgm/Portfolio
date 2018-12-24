@@ -139,7 +139,6 @@ class ProjectsPage extends Component {
           </MenuItem>
         </Toolbar>
       </AppBar>
-        <h1> My List of Projects:</h1>
         <img className = "ProjectPic" src = {require('./photos/HomePage.png')} alt = "not loading"/>
           <h2 className =  "ProjectHeader">San Francisco School Finder</h2>
           <p className = "Description">The goal of this project was to tackle an
