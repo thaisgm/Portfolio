@@ -151,7 +151,7 @@ class ProjectsPage extends Component {
           schools without the chance of attending another. We aimed to solve this issue by
           creating a website that allowed parents to easily find the right school
           for their child by rating a few preferences.</p>
-          <button> Click here to learn more</button>
+          <button className = "ProjectButton"> Click here to learn more</button>
 
       </div>
     );
