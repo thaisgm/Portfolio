@@ -51,7 +51,7 @@ class App extends Component {
     if (this.state.aboutMePage){
       return (
         <div className = "MainPage">
-          <AppBar className = "menuBar" position="sticky" color= '#e6e6e6'>
+          <AppBar className = "menuBar" position="sticky" color= '#cce6ff'>
             <Toolbar variant="dense">
               <MenuItem className= "menuButton" onMouseDown = {() => this.back()}>
                 ABOUT ME
@@ -126,7 +126,7 @@ class ProjectsPage extends Component {
   render() {
     return (
       <div>
-      <AppBar className = "menuBar" position="sticky">
+      <AppBar className = "menuBar" position="sticky" color= '#cce6ff'>
         <Toolbar variant="dense">
           <MenuItem className= "menuButton" onMouseDown = {() => this.props.aboutMePage()}>
             ABOUT ME
@@ -151,7 +151,7 @@ class SchedulePage extends Component {
     return (
       <div>
         <div className="Menu">
-        <AppBar className = "menuBar" position="sticky">
+        <AppBar className = "menuBar" position="sticky" color= '#cce6ff'>
           <Toolbar variant="dense">
             <MenuItem className= "menuButton" onMouseDown = {() => this.props.aboutMePage()}>
               ABOUT ME
