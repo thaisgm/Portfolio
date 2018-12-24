@@ -201,7 +201,7 @@ class SFSFPage extends Component {
     return (
       <div>
         <h1>San Francisco School Finder</h1>
-        <button onMouseDown = {() => this.props.backToProjects}>Back to Projects List</button>
+        <button onMouseDown = {() => this.props.backToProjects()}>Back to Projects List</button>
       </div>
     )
   }
@@ -214,7 +214,7 @@ class GifterPage extends Component {
     return (
       <div>
         <h1>Gifter</h1>
-        <button onMouseDown = {() => this.props.backToProjects}>Back to Projects List</button>
+        <button onMouseDown = {() => this.props.backToProjects()}>Back to Projects List</button>
       </div>
     )
   }
