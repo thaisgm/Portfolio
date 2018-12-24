@@ -139,9 +139,9 @@ class ProjectsPage extends Component {
           </MenuItem>
         </Toolbar>
       </AppBar>
-        <p> My List of Projects:</p>
+        <h1> My List of Projects:</h1>
         <img className = "ProjectPic" src = {require('./photos/HomePage.png')} alt = "not loading"/>
-          <h1 className =  "ProjectHeader">San Francisco School Finder</h1>
+          <h2 className =  "ProjectHeader">San Francisco School Finder</h2>
           <p className = "Description">The goal of this project was to tackle an
           issue plaguing the San Francisco Public School system: filling out the
           school assignment form was a tedious and time-consuming tasks that wasn't
