@@ -6,13 +6,8 @@
   overflow: auto;
 }
 
-.Menu {
-  width: 250px;
-  height: 400px;
-  position: absolute;
-  top: 0px;
-  background-color: #ccf2ff;
-  float: left;
+.menuBar {
+  color: #e6e6e6;
 }
 
 .title {
@@ -21,7 +16,7 @@
 
 .body {
   text-align: center;
-  margin-top: 75px;
+  margin-top: 100px;
   margin-right: 75px;
   margin-left: 200px;
 }

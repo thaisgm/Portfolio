@@ -55,15 +55,15 @@ class App extends Component {
     if (this.state.aboutMePage){
       return (
         <div className = "MainPage">
-          <AppBar position="sticky">
+          <AppBar className = "menuBar" position="sticky">
             <Toolbar variant="dense">
-              <MenuItem className= "menuButton" color="#e6e6e6" onMouseDown = {() => this.back()}>
+              <MenuItem className= "menuButton" onMouseDown = {() => this.back()}>
                 ABOUT ME
               </MenuItem>
-              <MenuItem className= "menuButton" color="#e6e6e6" onMouseDown = {() => this.myProjects()}>
+              <MenuItem className= "menuButton" onMouseDown = {() => this.myProjects()}>
                 MY PROJECTS
               </MenuItem>
-              <MenuItem className= "menuButton" color="#e6e6e6" onMouseDown = {() => this.softballSchedule()}>
+              <MenuItem className= "menuButton" onMouseDown = {() => this.softballSchedule()}>
                 MICHIGAN SOFTBALL SCHEDULE
               </MenuItem>
             </Toolbar>
