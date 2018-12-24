@@ -56,9 +56,6 @@ class App extends Component {
               </MenuItem>
             </Toolbar>
           </AppBar>
-
-          <div className = "mainBody">
-
           <div className = "Slideshow">
               <Slide {...properties}>
               <div className="each-slide">
@@ -98,7 +95,6 @@ class App extends Component {
             I created this website to show the projects I've worked on and the
             story behind each of them. Thanks for stopping by, and Go Blue!</p>
           </div>
-        </div>
       );
     } else if (this.state.projectsPage){
       return(
