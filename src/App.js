@@ -5,9 +5,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import Divider from '@material-ui/core/Divider';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
+import MenuButton from '@material-ui/core/MenuButton';
 import { Slide } from 'react-slideshow-image';
 import './App.css';
 
@@ -59,18 +57,15 @@ class App extends Component {
         <div className = "MainPage">
         <AppBar position="static">
                <Toolbar variant="dense">
-                 <IconButton className= "menuButton" color="inherit" aria-label="Menu">
-                   <MenuIcon />
-                 </IconButton>
-                 <Typography variant="h6" color="inherit">
-                   About Me
-                 </Typography>
-                 <Typography variant="h6" color="inherit">
-                   My Projects
-                 </Typography>
-                 <Typography variant="h6" color="inherit">
-                   Michigan Softball Schedule
-                 </Typography>
+                 <MenuButton className= "menuButton" color="inherit" aria-label="Menu">
+                  ABOUT ME
+                 </MenuButton>
+                 <MenuButton className= "menuButton" color="inherit" aria-label="Menu">
+                  MY PROJECTS
+                 </MenuButton>
+                 <MenuButton className= "menuButton" color="inherit" aria-label="Menu">
+                  MICHIGAN SOFTBALL SCHEDULE
+                 </MenuButton>
                </Toolbar>
              </AppBar>
             <div className = "Slideshow">
