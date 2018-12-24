@@ -5,7 +5,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import Divider from '@material-ui/core/Divider';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import MenuButton from '@material-ui/core/MenuButton';
+import MenuItem from '@material-ui/core/MenuItem';
 import { Slide } from 'react-slideshow-image';
 import './App.css';
 
@@ -57,15 +57,15 @@ class App extends Component {
         <div className = "MainPage">
         <AppBar position="static">
                <Toolbar variant="dense">
-                 <MenuButton className= "menuButton" color="inherit" aria-label="Menu">
+                 <MenuItem className= "menuButton" color="inherit" aria-label="Menu">
                   ABOUT ME
-                 </MenuButton>
-                 <MenuButton className= "menuButton" color="inherit" aria-label="Menu">
+                 </MenuItem>
+                 <MenuItem className= "menuButton" color="inherit" aria-label="Menu">
                   MY PROJECTS
-                 </MenuButton>
-                 <MenuButton className= "menuButton" color="inherit" aria-label="Menu">
+                 </MenuItem>
+                 <MenuItem className= "menuButton" color="inherit" aria-label="Menu">
                   MICHIGAN SOFTBALL SCHEDULE
-                 </MenuButton>
+                 </MenuItem>
                </Toolbar>
              </AppBar>
             <div className = "Slideshow">
