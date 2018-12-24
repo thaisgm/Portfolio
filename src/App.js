@@ -209,23 +209,23 @@ class SFSFPage extends Component {
         had with the current school assignment form, we decided to build a
         website to alleviate these pains and minimize the education gap currently
         growing in the Bay Area.</p>
-          <img src = {require('./photos/gitTeamMarie-RoseRamboz.jpg')} alt = "not loading"/>
+          <img src = {require('./photos/gitTeamMarie-RoseRamboz.jpg')} alt = "not loading" width = '750px'/>
           <span>Photo of me and my Team at GIT Hackathon. Credits to Marie-Rose Ramboz.</span>
         <p>Our idea was a accessible, quick process busy parents who potentially
         didn't speak english could use to find the best school for their child.</p>
-          <img src = {require('./photos/SFDiagram.png')} alt = "not loading"/>
+          <img src = {require('./photos/SFDiagram.png')} alt = "not loading" width = '750px'/>
           <span>Our vision for SF School Finder.</span>
         <p>We came up with a quiz for parents to take in order to rank the
         importance of certain criteria like distance, after school programs, etc.
         We didn't want the quiz to appear like yet another form, so we designed
         a fun UX with simple and short questions.</p>
-          <img src = {require('./photos/QuizPage.png')} alt = "not loading"/>
+          <img src = {require('./photos/QuizPage.png')} alt = "not loading" width = '750px'/>
           <span></span>
         <p>So parents from any of SF's diverse communities were able to use our
         application, we implemented the Google Translate API. This allowed our
         website to be available in any language, an important issue that many
         parents faced when researching public schools for their children.</p>
-            <img src = {require('./photos/HomePageSpanish.png')} alt = "not loading"/>
+            <img src = {require('./photos/HomePageSpanish.png')} alt = "not loading" width = '750px'/>
             <span></span>
         <p>The algorithm we developed took the responses of the parents and
         multiplied them against the initial rankings we gave the schools. Then,
@@ -233,7 +233,7 @@ class SFSFPage extends Component {
         of the parents. We made sure to include key information about the school
         on the list page, so the parents could scroll through them as efficiently
         as possible.</p>
-          <img src = {require('./photos/School Results.png')} alt = "not loading"/>
+          <img src = {require('./photos/School Results.png')} alt = "not loading" width = '325px'/>
           <span></span>
         <h2>Challenges we faced...</h2>
           <p>Most of the problems we ran into came from the lack of time we had
