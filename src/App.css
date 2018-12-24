@@ -39,5 +39,6 @@
 }
 
 .Slideshow {
-  float: left
+  float: left;
+  width: 500px;
 }
