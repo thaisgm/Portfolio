@@ -153,7 +153,7 @@ class ProjectsPage extends Component {
           <button className = "ProjectButton1"> Click here to learn more</button>
         <img className = "ProjectPic2b" src = {require('./photos/MainScreenDemo.png')} alt = "not loading"/>
         <img className = "ProjectPic2" src = {require('./photos/GifterDemo.png')} alt = "not loading"/>
-          <h2 className = "ProjectPic2">Gifter</h2>
+          <h2 className = "ProjectHeader2">Gifter</h2>
           <p className = "Description2">Gifter is a fun, mobile application I worked
           on with a group during a short hackathon. Our goal was to come up with
           something light-hearted and creative. We decided to build an app that
