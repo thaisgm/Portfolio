@@ -66,6 +66,11 @@
   width: 375px;
   margin: 25px;
 }
+.ProjectPic2b {
+  float: right;
+  width: 375px;
+  margin-top: 50px;
+}
 
 .ProjectHeader2 {
   text-align: center;
@@ -78,7 +83,6 @@
   text-align: center;
   margin-top: 50px;
   margin-left: 75px;
-  margin-right: 200px;
 }
 
 .ProjectButton2 {
