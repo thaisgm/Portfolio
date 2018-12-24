@@ -76,20 +76,21 @@
 
 .ProjectHeader2 {
   text-align: center;
-  margin-top: 200px;
+  margin-top: 300px;
   margin-left: 75px;
   margin-right: 200px;
 }
 
 .Description2 {
   text-align: center;
-  margin-top: 250px;
+  margin-top: 200px;
   margin-left: 75px;
+  margin-right: 200px;
 }
 
 .ProjectButton2 {
   text-align: center;
   margin-top: 20px;
-  margin-left: 100px;
+  margin-left: 300px;
   margin-right: 200px;
 }
