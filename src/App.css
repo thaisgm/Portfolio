@@ -4,6 +4,7 @@
 
 .MainPage {
   overflow: auto;
+  background-image: './photos/stadium.jpeg'
 }
 
 .menuBar {
