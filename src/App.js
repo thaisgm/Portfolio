@@ -50,7 +50,7 @@ class App extends Component {
   render() {
     if (this.state.aboutMePage){
       return (
-        <div className = "MainPage" backgroundImage = {require('./photos/stadium.jpeg')}>
+        <div className = "MainPage">
           <AppBar className = "menuBar" position="sticky" color= '#cce6ff'>
             <Toolbar variant="dense">
               <MenuItem className= "menuButton" onMouseDown = {() => this.back()}>
@@ -60,10 +60,12 @@ class App extends Component {
                 MY PROJECTS
               </MenuItem>
               <MenuItem className= "menuButton" onMouseDown = {() => this.softballSchedule()}>
-                MICHIGAN SOFTBALL SCHEDULE
+                <a href = 'https://mgoblue.com/schedule.aspx?schedule=1515'>MICHIGAN SOFTBALL SCHEDULE</a>
               </MenuItem>
             </Toolbar>
           </AppBar>
+
+          <div className = "mainBody">
 
           <div className = "Slideshow">
               <Slide {...properties}>
@@ -103,6 +105,7 @@ class App extends Component {
             Experience, Research, and Design as well as a minor in Computer Science.
             I created this website to show the projects I've worked on and the
             story behind each of them. Thanks for stopping by, and Go Blue!</p>
+          </div>
         </div>
       );
     } else if (this.state.projectsPage){
