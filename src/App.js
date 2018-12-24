@@ -55,7 +55,7 @@ class App extends Component {
     if (this.state.aboutMePage){
       return (
         <div className = "MainPage">
-          <AppBar className = "menuBar" position="sticky">
+          <AppBar className = "menuBar" position="sticky" color= '#e6e6e6'>
             <Toolbar variant="dense">
               <MenuItem className= "menuButton" onMouseDown = {() => this.back()}>
                 ABOUT ME
