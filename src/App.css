@@ -4,7 +4,7 @@
 
 .MainPage {
   overflow: auto;
-  background-image: `url($('./photos/stadium.jpeg'))`
+  background-image: url($('./photos/stadium.jpeg'));
 }
 
 .title {

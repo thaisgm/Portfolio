@@ -119,8 +119,8 @@ class ProjectsPage extends Component {
           <MenuItem className= "menuButton" onMouseDown = {() => this.props.myProjectsPage()}>
             MY PROJECTS
           </MenuItem>
-          <MenuItem className= "menuButton" onMouseDown = {() => this.props.softballSchedulePage()}>
-            MICHIGAN SOFTBALL SCHEDULE
+          <MenuItem className= "menuButton">
+          <a href = 'https://mgoblue.com/schedule.aspx?schedule=1515'>MICHIGAN SOFTBALL SCHEDULE</a>
           </MenuItem>
         </Toolbar>
       </AppBar>
