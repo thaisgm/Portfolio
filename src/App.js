@@ -202,6 +202,54 @@ class SFSFPage extends Component {
       <div>
         <h1>San Francisco School Finder</h1>
         <button onMouseDown = {() => this.props.backToProjects()}>Back to Projects List</button>
+        <p>In the summer of 2018, I attended a hackathon with a group of 4 other
+        developers. The mission of the hackathon was to come up with technical
+        solutions to Bay Area issues. After listening to a member of SF's Board
+        of Education speak on the problems immigrant and lower-income families
+        had with the current school assignment form, we decided to build a
+        website to alleviate these pains and minimize the education gap currently
+        growing in the Bay Area.</p>
+          <img src = {require('./photos/gitTeamMarie-RoseRamboz.jpg')} alt = "not loading"/>
+          <span>Photo of me and my Team at GIT Hackathon. Credits to Marie-Rose Ramboz.</span>
+        <p>Our idea was a accessible, quick process busy parents who potentially
+        didn't speak english could use to find the best school for their child.</p>
+          <img src = {require('./photos/SFDiagram')} alt = "not loading"/>
+          <span>Our vision for SF School Finder.</span>
+        <p>We came up with a quiz for parents to take in order to rank the
+        importance of certain criteria like distance, after school programs, etc.
+        We didn't want the quiz to appear like yet another form, so we designed
+        a fun UX with simple and short questions.</p>
+          <img src = {require('./photos/QuizPage.png')} alt = "not loading"/>
+          <span></span>
+        <p>So parents from any of SF's diverse communities were able to use our
+        application, we implemented the Google Translate API. This allowed our
+        website to be available in any language, an important issue that many
+        parents faced when researching public schools for their children.</p>
+            <img src = {require('./photos/HomePageSpanish.png')} alt = "not loading"/>
+            <span></span>
+        <p>The algorithm we developed took the responses of the parents and
+        multiplied them against the initial rankings we gave the schools. Then,
+        we ordered a list based on which schools most resembled the preferences
+        of the parents. We made sure to include key information about the school
+        on the list page, so the parents could scroll through them as efficiently
+        as possible.</p>
+          <img src = {require('./photos/School Results.png')} alt = "not loading"/>
+          <span></span>
+        <h2>Challenges we faced...</h2>
+          <p>Most of the problems we ran into came from the lack of time we had
+          to work on the project. Even pulling an all-nighter only gave us around
+          30 hours to bring our idea to life. In order to meet this deadline, we
+          decided to hard code a few factors to ensure our prototype was functional.
+          For example, rather than implement the Google Maps Matrix API to allow
+          users to type in any address and find the distance from the schools,
+          we decided to hard code this information from a single address. </p>
+          <p>We also decided to start off with a sample size of 25 schools, stored
+          in MongoDB. Most of the information on the school was stored in various
+          sites, hidden behind many links. Our plan was to later use web scraping
+          to gather the information we needed on all the public schools in SF.
+          I was in charge of managing the database, and decided on several factors
+          to rate the schools. These were chosen based on the discussion we had
+          with the SF school board member on what parents looked for in schools.</p>
       </div>
     )
   }
