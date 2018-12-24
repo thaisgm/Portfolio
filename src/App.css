@@ -30,29 +30,56 @@
   margin: 25px;
 }
 
-.ProjectPic {
+.ProjectPic1 {
   float: left;
   width: 750px;
   margin: 25px;
 }
 
-.ProjectHeader {
+.ProjectHeader1 {
   text-align: center;
   margin-top: 100px;
   margin-right: 75px;
   margin-left: 200px;
 }
 
-.Description {
+.Description1 {
   text-align: center;
   margin-top: 50px;
   margin-right: 75px;
   margin-left: 200px;
 }
 
-.ProjectButton{
+.ProjectButton1 {
   text-align: center;
   margin-top: 20px;
   margin-right: 100px;
   margin-left: 200px;
+}
+
+.ProjectPic2 {
+  float: right;
+  width: 375px;
+  margin: 25px;
+}
+
+.ProjectHeader2 {
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 75px;
+  margin-right: 200px;
+}
+
+.Description2 {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 75px;
+  margin-right: 200px;
+}
+
+.ProjectButton2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 200px;
 }

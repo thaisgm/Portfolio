@@ -125,7 +125,7 @@ class ProjectsPage extends Component {
 
   render() {
     return (
-      <div>
+      <div className = "ProjectPage">
       <AppBar className = "menuBar" position="sticky" color= '#cce6ff'>
         <Toolbar variant="dense">
           <MenuItem className= "menuButton" onMouseDown = {() => this.props.aboutMePage()}>
@@ -139,9 +139,9 @@ class ProjectsPage extends Component {
           </MenuItem>
         </Toolbar>
       </AppBar>
-        <img className = "ProjectPic" src = {require('./photos/HomePage.png')} alt = "not loading"/>
-          <h2 className =  "ProjectHeader">San Francisco School Finder</h2>
-          <p className = "Description">The goal of this project was to tackle an
+        <img className = "ProjectPic1" src = {require('./photos/HomePage.png')} alt = "not loading"/>
+          <h2 className =  "ProjectHeader1">San Francisco School Finder</h2>
+          <p className = "Description1">The goal of this project was to tackle an
           issue plaguing the San Francisco Public School system: filling out the
           school assignment form was a tedious and time-consuming tasks that wasn't
           accessible for all parents. As a result, their child was often placed
@@ -150,8 +150,16 @@ class ProjectsPage extends Component {
           schools without the chance of attending another. We aimed to solve this issue by
           creating a website that allowed parents to easily find the right school
           for their child by rating a few preferences.</p>
-          <button className = "ProjectButton"> Click here to learn more</button>
-
+          <button className = "ProjectButton1"> Click here to learn more</button>
+        <img className = "ProjectPic2" src = {require('./photos/GifterDemo')} alt = "not loading"/>
+        <img className = "ProjectPic2" src = {require('./photos/MainScreenDemo')} alt = "not loading"/>
+          <h2 className = "ProjectPic2">Gifter</h2>
+          <p className = "Description2">Gifter is a fun, mobile application I worked
+          on with a group during a short hackathon. Our goal was to come up with
+          something light-hearted and creative. We decided to build an app that
+          allowed you to send funny, random messages to your friends. We used
+          React Native and Twillio to make this happen.</p>
+          <button className = "ProjectButton2"> Click here to learn more</button>
       </div>
     );
   }
