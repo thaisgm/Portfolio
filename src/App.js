@@ -55,20 +55,21 @@ class App extends Component {
     if (this.state.aboutMePage){
       return (
         <div className = "MainPage">
-        <AppBar position="static">
-               <Toolbar variant="dense">
-                 <MenuItem className= "menuButton" color="inherit" aria-label="Menu">
-                  ABOUT ME
-                 </MenuItem>
-                 <MenuItem className= "menuButton" color="inherit" aria-label="Menu">
-                  MY PROJECTS
-                 </MenuItem>
-                 <MenuItem className= "menuButton" color="inherit" aria-label="Menu">
-                  MICHIGAN SOFTBALL SCHEDULE
-                 </MenuItem>
-               </Toolbar>
-             </AppBar>
-            <div className = "Slideshow">
+          <AppBar position="static">
+            <Toolbar variant="dense">
+              <MenuItem className= "menuButton" color="inherit" onMouseDown = {() => this.back()}>
+                ABOUT ME
+              </MenuItem>
+              <MenuItem className= "menuButton" color="inherit" onMouseDown = {() => this.myProjects()}>
+                MY PROJECTS
+              </MenuItem>
+              <MenuItem className= "menuButton" color="inherit" onMouseDown = {() => this.softballSchedule()}>
+                MICHIGAN SOFTBALL SCHEDULE
+              </MenuItem>
+            </Toolbar>
+          </AppBar>
+
+          <div className = "Slideshow">
               <Slide {...properties}>
               <div className="each-slide">
                  <div className="image-container">
@@ -86,7 +87,7 @@ class App extends Component {
                  </div>
                </div>
               </Slide>
-            </div>
+          </div>
             <p className = "body"> My name is Thais Gonzalez.
             I grew up in South Florida, playing sports for most of my life and
             graduated from St. Thomas Aquinas High School as a first-team all
