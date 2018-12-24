@@ -50,7 +50,7 @@ class App extends Component {
   render() {
     if (this.state.aboutMePage){
       return (
-        <div className = "MainPage" background = './photos/stadium.jpeg'>
+        <div className = "MainPage" backgroundImage = './photos/stadium.jpeg'>
           <AppBar className = "menuBar" position="sticky" color= '#cce6ff'>
             <Toolbar variant="dense">
               <MenuItem className= "menuButton" onMouseDown = {() => this.back()}>
