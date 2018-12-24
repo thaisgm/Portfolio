@@ -97,18 +97,15 @@ class App extends Component {
             pursuing a traditional business career. I decided to explore a field
             that I had always love, but never dove into: technology.
             </p>
-            <p className = "body1">After my first structured programming class, I
-            was hooked. But after that class, essentially all I was capable of
-            doing was coding board games in the console of XCode. I wanted to
-            gain actionable and applicable coding knowledge, and applied for a
-            Software Engineering Fellowship at Horizons School of Technology in
-            San Francisco. I was accepted and spent 12 weeks in SF studying
-            mobile and web technologies and working on many technical projects.
-            I found that I really enjoyed brainstorming with teams and creating a
-            solution with the customer's needs in mind, so when I returned to
-            Michigan, I decided to pursue my MicroMasters in User Experience,
-            Research, and Design as well as a minor in Computer Science. I created
-            this website to show the projects I've worked on and the process and
+            <p className = "body1">After my first structured programming class,
+            essentially all I was capable of doing was coding board games in the
+            console of XCode. To gain actionable and applicable coding knowledge,
+            I applied for a Software Engineering Fellowship in San Francisco.
+            After I was accepted, I spent 12 weeks in SF studying mobile and web
+            technologies and working on exciting technical projects. When I
+            returned to Michigan, I decided to pursue my MicroMasters in User
+            Experience, Research, and Design as well as a minor in Computer Science.
+            I created this website to show the projects I've worked on and the
             story behind each of them. Thanks for stopping by, and Go Blue!</p>
         </div>
       );
