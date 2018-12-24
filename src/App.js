@@ -39,14 +39,6 @@ class App extends Component {
     })
   };
 
-  softballSchedule(){
-    this.setState({
-      aboutMePage: false,
-      projectsPage: false,
-      schedulePage: true
-    })
-  };
-
   render() {
     if (this.state.aboutMePage){
       return (
@@ -59,7 +51,7 @@ class App extends Component {
               <MenuItem className= "menuButton" onMouseDown = {() => this.myProjects()}>
                 MY PROJECTS
               </MenuItem>
-              <MenuItem className= "menuButton" onMouseDown = {() => this.softballSchedule()}>
+              <MenuItem className= "menuButton">
                 <a href = 'https://mgoblue.com/schedule.aspx?schedule=1515'>MICHIGAN SOFTBALL SCHEDULE</a>
               </MenuItem>
             </Toolbar>
@@ -114,12 +106,6 @@ class App extends Component {
         myProjectsPage = {() => this.myProjects()}
         softballSchedulePage = {() => this.softballSchedule()}/>
       )
-    } else if (this.state.schedulePage){
-      return (
-        <SchedulePage aboutMePage = {() => this.back()}
-        myProjectsPage = {() => this.myProjects()}
-        softballSchedulePage = {() => this.softballSchedule()}/>
-      )
     }
   }
 }
@@ -165,32 +151,6 @@ class ProjectsPage extends Component {
           significant: a uniquely curated, one-of-a-kind content text message.
           We used React Native and Twillio to make this happen.</p>
           <button className = "ProjectButton2"> Click here to learn more</button>
-      </div>
-    );
-  }
-}
-
-class SchedulePage extends Component {
-
-  render() {
-    return (
-      <div>
-        <div className="Menu">
-        <AppBar className = "menuBar" position="sticky" color= '#cce6ff'>
-          <Toolbar variant="dense">
-            <MenuItem className= "menuButton" onMouseDown = {() => this.props.aboutMePage()}>
-              ABOUT ME
-            </MenuItem>
-            <MenuItem className= "menuButton" onMouseDown = {() => this.props.myProjectsPage()}>
-              MY PROJECTS
-            </MenuItem>
-            <MenuItem className= "menuButton" onMouseDown = {() => this.props.softballSchedulePage()}>
-              MICHIGAN SOFTBALL SCHEDULE
-            </MenuItem>
-          </Toolbar>
-        </AppBar>
-        </div>
-        <p className = "title"> Michigan Softball 2019 Schedule:</p>
       </div>
     );
   }

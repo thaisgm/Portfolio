@@ -2,10 +2,6 @@
   text-align: center;
 }
 
-.mainBody {
-  background-image: './photos/stadium.jpeg';
-}
-
 .MainPage {
   overflow: auto;
 }
