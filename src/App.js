@@ -139,7 +139,20 @@ class ProjectsPage extends Component {
           </MenuItem>
         </Toolbar>
       </AppBar>
-        <p className = "title"> My List of Projects:</p>
+        <p> My List of Projects:</p>
+        <img className = "ProjectPic" src = {require('./photos/HomePage.png')} alt = "not loading"/>
+          <h1 className =  "ProjectHeader">San Francisco School Finder</h1>
+          <p className = "Description">The goal of this project was to tackle an
+          issue plaguing the San Francisco Public School system: filling out the
+          school assignment form was a tedious and time-consuming tasks that wasn't
+          accessible for all parents. As a result, their child was often placed
+          in the school of their district. This led to a continuous cycles of minority
+          students from lower-income neighborhoods being placed in lower-performing
+          schools without the chance of attending another. We aimed to solve this issue by
+          creating a website that allowed parents to easily find the right school
+          for their child by rating a few preferences.</p>
+          <button> Click here to learn more</button>
+
       </div>
     );
   }
