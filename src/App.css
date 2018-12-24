@@ -43,3 +43,8 @@
   left: 400px;
   right: 100px;
 }
+
+.menuButton {
+  marginLeft: -18,
+  marginRight: 10,
+}

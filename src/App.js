@@ -3,8 +3,12 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import Divider from '@material-ui/core/Divider';
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
+import Typography from '@material-ui/core/Typography';
+import IconButton from '@material-ui/core/IconButton';
+import MenuIcon from '@material-ui/icons/Menu';
 import { Slide } from 'react-slideshow-image';
-import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 import './App.css';
 
 const properties = {
@@ -53,39 +57,22 @@ class App extends Component {
     if (this.state.aboutMePage){
       return (
         <div className = "MainPage">
-          <Navbar>
-            <Nav>
-              <NavItem eventKey={1} href="#">
-                Link
-              </NavItem>
-              <NavItem eventKey={2} href="#">
-                Link
-              </NavItem>
-            <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
-              <MenuItem eventKey={3.1}>Action</MenuItem>
-              <MenuItem eventKey={3.2}>Another action</MenuItem>
-              <MenuItem eventKey={3.3}>Something else here</MenuItem>
-              <MenuItem divider />
-              <MenuItem eventKey={3.4}>Separated link</MenuItem>
-            </NavDropdown>
-          </Nav>
-        </Navbar>
-            <div className="Menu">
-              <List component="nav">
-                <ListItem button onMouseDown = {() => this.back()}>
-                  <ListItemText primary="About Me" />
-                </ListItem>
-                  <ListItem button onMouseDown = {() => this.myProjects()}>
-                    <ListItemText primary="My Projects" />
-                  </ListItem>
-              </List>
-              <Divider />
-              <List component="nav">
-                <ListItem button onMouseDown = {() => this.softballSchedule()}>
-                  <ListItemText primary="Softball Schedule 2019" />
-                </ListItem>
-              </List>
-            </div>
+        <AppBar position="static">
+               <Toolbar variant="dense">
+                 <IconButton className= "menuButton" color="inherit" aria-label="Menu">
+                   <MenuIcon />
+                 </IconButton>
+                 <Typography variant="h6" color="inherit">
+                   About Me
+                 </Typography>
+                 <Typography variant="h6" color="inherit">
+                   My Projects
+                 </Typography>
+                 <Typography variant="h6" color="inherit">
+                   Michigan Softball Schedule
+                 </Typography>
+               </Toolbar>
+             </AppBar>
             <div className = "Slideshow">
               <Slide {...properties}>
               <div className="each-slide">
