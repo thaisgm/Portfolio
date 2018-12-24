@@ -64,12 +64,14 @@
 .ProjectPic2 {
   float: right;
   width: 375px;
-  margin: 25px;
+  margin-top: 50px;
+
 }
+
 .ProjectPic2b {
   float: right;
   width: 375px;
-  margin-top: 50px;
+  margin: 25px;
 }
 
 .ProjectHeader2 {
