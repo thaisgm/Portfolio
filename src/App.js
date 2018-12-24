@@ -107,48 +107,116 @@ class App extends Component {
 }
 
 class ProjectsPage extends Component {
+  constructor(props){
+  super(props);
+    this.state = {
+      projectsList: true,
+      sfsfPage: false,
+      gifterPage: false
+    }
+  }
+
+  projectsList() {
+    this.setState({
+      projectsList: true,
+      sfsfPage: false,
+      gifterPage: false
+    })
+
+  }
+
+  sfsf() {
+    this.setState({
+      projectsList: false,
+      sfsfPage: true,
+      gifterPage: false
+    })
+  }
+
+  gifter(){
+    this.setState({
+      projectsList: false,
+      sfsfPage: false,
+      gifterPage: true
+    })
+  }
+
+  render() {
+    if (this.state.projectsList){
+      return (
+        <div className = "ProjectPage">
+        <AppBar className = "menuBar" position="sticky" color= '#cce6ff'>
+          <Toolbar variant="dense">
+            <MenuItem className= "menuButton" onMouseDown = {() => this.props.aboutMePage()}>
+              ABOUT ME
+            </MenuItem>
+            <MenuItem className= "menuButton" onMouseDown = {() => this.props.myProjectsPage()}>
+              MY PROJECTS
+            </MenuItem>
+            <MenuItem className= "menuButton">
+            <a href = 'https://mgoblue.com/schedule.aspx?schedule=1515'>MICHIGAN SOFTBALL SCHEDULE</a>
+            </MenuItem>
+          </Toolbar>
+        </AppBar>
+          <img className = "ProjectPic1" src = {require('./photos/HomePage.png')} alt = "not loading"/>
+            <h2 className =  "ProjectHeader1">San Francisco School Finder</h2>
+            <p className = "Description1">The goal of this project was to tackle an
+            issue plaguing the San Francisco Public School system: filling out the
+            school assignment form was a tedious and time-consuming tasks that wasn't
+            accessible for all parents. As a result, their child was often placed
+            in the school of their district. This led to a continuous cycles of minority
+            students from lower-income neighborhoods being placed in lower-performing
+            schools without the chance of attending another. We aimed to solve this issue by
+            creating a website that allowed parents to easily find the right school
+            for their child by rating a few preferences.</p>
+            <button className = "ProjectButton1" onMouseDown = {() => this.sfsf()}>LEARN MORE...</button>
+          <img className = "ProjectPic2b" src = {require('./photos/MainScreenDemo.png')} alt = "not loading"/>
+          <img className = "ProjectPic2" src = {require('./photos/GifterDemo.png')} alt = "not loading"/>
+            <h2 className = "ProjectHeader2">Gifter</h2>
+            <p className = "Description2">Gifter is a fun, mobile application I worked
+            on with a group during a short hackathon. Our goal was to come up with
+            something light-hearted and creative. We decided to build an app that
+            allowed you to send funny, random messages to your friends. Our vision
+            was an expansion of the popularity of emoticons by sending something more
+            significant: a uniquely curated, one-of-a-kind content text message.
+            We used React Native and Twillio to make this happen.</p>
+            <button className = "ProjectButton2" onMouseDown = {() => this.gifter()}> LEARN MORE...</button>
+        </div>
+      )
+    } else if (this.state.sfsfPage){
+      return (
+        <SFSFPage backToProjects = {() => this.projectsList()}/>
+      )
+    } else if (this.state.gifterPage){
+      return (
+        <GifterPage backToProjects = {() => this.projectsList()}/>
+      )
+    }
+  }
+}
+
+class SFSFPage extends Component {
 
   render() {
     return (
-      <div className = "ProjectPage">
-      <AppBar className = "menuBar" position="sticky" color= '#cce6ff'>
-        <Toolbar variant="dense">
-          <MenuItem className= "menuButton" onMouseDown = {() => this.props.aboutMePage()}>
-            ABOUT ME
-          </MenuItem>
-          <MenuItem className= "menuButton" onMouseDown = {() => this.props.myProjectsPage()}>
-            MY PROJECTS
-          </MenuItem>
-          <MenuItem className= "menuButton">
-          <a href = 'https://mgoblue.com/schedule.aspx?schedule=1515'>MICHIGAN SOFTBALL SCHEDULE</a>
-          </MenuItem>
-        </Toolbar>
-      </AppBar>
-        <img className = "ProjectPic1" src = {require('./photos/HomePage.png')} alt = "not loading"/>
-          <h2 className =  "ProjectHeader1">San Francisco School Finder</h2>
-          <p className = "Description1">The goal of this project was to tackle an
-          issue plaguing the San Francisco Public School system: filling out the
-          school assignment form was a tedious and time-consuming tasks that wasn't
-          accessible for all parents. As a result, their child was often placed
-          in the school of their district. This led to a continuous cycles of minority
-          students from lower-income neighborhoods being placed in lower-performing
-          schools without the chance of attending another. We aimed to solve this issue by
-          creating a website that allowed parents to easily find the right school
-          for their child by rating a few preferences.</p>
-          <button className = "ProjectButton1">LEARN MORE...</button>
-        <img className = "ProjectPic2b" src = {require('./photos/MainScreenDemo.png')} alt = "not loading"/>
-        <img className = "ProjectPic2" src = {require('./photos/GifterDemo.png')} alt = "not loading"/>
-          <h2 className = "ProjectHeader2">Gifter</h2>
-          <p className = "Description2">Gifter is a fun, mobile application I worked
-          on with a group during a short hackathon. Our goal was to come up with
-          something light-hearted and creative. We decided to build an app that
-          allowed you to send funny, random messages to your friends. Our vision
-          was an expansion of the popularity of emoticons by sending something more
-          significant: a uniquely curated, one-of-a-kind content text message.
-          We used React Native and Twillio to make this happen.</p>
-          <button className = "ProjectButton2"> LEARN MORE...</button>
+      <div>
+        <h1>San Francisco School Finder</h1>
+        <button onMouseDown = {() => this.props.backToProjects}>Back to Projects List</button>
       </div>
-    );
+    )
+  }
+
+}
+
+class GifterPage extends Component {
+
+  render() {
+    return (
+      <div>
+        <h1>Gifter</h1>
+        <button onMouseDown = {() => this.props.backToProjects}>Back to Projects List</button>
+      </div>
+    )
   }
 }
 
