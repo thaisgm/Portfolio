@@ -115,25 +115,43 @@
 }
 
 .SFSF {
+  display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .row1 {
+  flex: 1;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .row2 {
+  flex: 1;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .row3 {
+  flex: 1;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .row4 {
+  flex: 1;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .row5 {
+  flex: 1;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
