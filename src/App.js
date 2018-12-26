@@ -144,6 +144,7 @@ class ProjectsPage extends Component {
   render() {
     if (this.state.projectsList){
       return (
+        <div className = "app">
         <div className = "ProjectPage">
         <AppBar className = "menuBar" position="sticky" color= '#cce6ff'>
           <Toolbar variant="dense">
@@ -182,6 +183,7 @@ class ProjectsPage extends Component {
             We used React Native and Twillio to make this happen.</p>
             <button className = "ProjectButton2" onMouseDown = {() => this.gifter()}> LEARN MORE...</button>
         </div>
+        </div>
       )
     } else if (this.state.sfsfPage){
       return (
@@ -201,7 +203,7 @@ class SFSFPage extends Component {
     return (
       <div className = "SFSF">
         <h1>San Francisco School Finder</h1>
-        <button onMouseDown = {() => this.props.backToProjects()}>Back to Projects List</button>
+        <button className = "backBtn" onMouseDown = {() => this.props.backToProjects()}>Back to Projects List</button>
         <div className = "row1">
           <p>In the summer of 2018, I attended a hackathon with a group of 4 other
           developers. The mission of the hackathon was to come up with technical
