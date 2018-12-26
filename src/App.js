@@ -42,7 +42,7 @@ class App extends Component {
   render() {
     if (this.state.aboutMePage){
       return (
-      <div className = "app">
+      <body className = "app">
         <div className = "MainPage">
           <AppBar className = "menuBar" position="sticky" color= '#cce6ff'>
             <Toolbar variant="dense">
@@ -96,7 +96,7 @@ class App extends Component {
             I created this website to show the projects I've worked on and the
             story behind each of them. Thanks for stopping by, and Go Blue!</p>
           </div>
-        </div>
+        </body>
       );
     } else if (this.state.projectsPage){
       return(
@@ -213,13 +213,13 @@ class SFSFPage extends Component {
           website to alleviate these pains and minimize the education gap currently
           growing in the Bay Area.</p>
             <img src = {require('./photos/gitTeamMarie-RoseRamboz.jpg')} alt = "not loading" width = '750px'/>
-            <span classnName = "caption">Photo of me and my Team at GIT Hackathon. Credits to Marie-Rose Ramboz.</span>
+            <span className = "caption">Photo of me and my Team at GIT Hackathon. Credits to Marie-Rose Ramboz.</span>
         </div>
         <div className = "row2">
           <p>Our idea was an accessible, quick process that busy parents could use
           to find the best school for their child.</p>
             <img src = {require('./photos/SFDiagram.png')} alt = "not loading" width = '750px'/>
-            <span classnName = "caption">Our vision for SF School Finder.</span>
+            <span className = "caption">Our vision for SF School Finder.</span>
         </div>
         <div className = "row3">
           <p>We came up with a quiz for parents to take in order to rank the
