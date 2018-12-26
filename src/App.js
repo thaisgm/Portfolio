@@ -202,48 +202,47 @@ class SFSFPage extends Component {
       <div className = "SFSF">
         <h1>San Francisco School Finder</h1>
         <button className = "backBtn" onMouseDown = {() => this.props.backToProjects()}>Back to Projects List</button>
-        <div className = "row1">
-          <p>In the summer of 2018, I attended a hackathon with a group of 4 other
+        <div className = "flexContainer">
+          <div className = "column1">
+            <img src = {require('./photos/gitTeamMarie-RoseRamboz.jpg')} alt = "not loading" width = '750px'/>
+            <p>In the summer of 2018, I attended a hackathon with a group of 4 other
           developers. The mission of the hackathon was to come up with technical
           solutions to Bay Area issues. After listening to a member of SF's Board
           of Education speak on the problems immigrant and lower-income families
           had with the current school assignment form, we decided to build a
           website to alleviate these pains and minimize the education gap currently
           growing in the Bay Area.</p>
-            <img src = {require('./photos/gitTeamMarie-RoseRamboz.jpg')} alt = "not loading" width = '750px'/>
             <span className = "caption">Photo of me and my Team at GIT Hackathon. Credits to Marie-Rose Ramboz.</span>
-        </div>
-        <div className = "row2">
-          <p>Our idea was an accessible, quick process that busy parents could use
-          to find the best school for their child.</p>
+          </div>
+          <div className = "column2">
             <img src = {require('./photos/SFDiagram.png')} alt = "not loading" width = '750px'/>
+            <p>Our idea was an accessible, quick process that busy parents could use
+            to find the best school for their child.</p>
             <span className = "caption">Our vision for SF School Finder.</span>
-        </div>
-        <div className = "row3">
-          <p>We came up with a quiz for parents to take in order to rank the
-          importance of certain criteria like distance, after school programs, etc.
-          We didn't want the quiz to appear like yet another form, so we designed
-          a fun UX with simple and short questions.</p>
+          </div>
+          <div className = "column3">
             <img src = {require('./photos/QuizPage.png')} alt = "not loading" width = '750px'/>
-            <span></span>
-        </div>
-        <div className = "row4">
-          <p>So parents from any of SF's diverse communities were able to use our
+            <p>We came up with a quiz for parents to take in order to rank the
+            importance of certain criteria like distance, after school programs, etc.
+            We didn't want the quiz to appear like yet another form, so we designed
+            a fun UX with simple and short questions.</p>
+          </div>
+          <div className = "column4">
+            <img src = {require('./photos/HomePageSpanish.png')} alt = "not loading" width = '750px'/>
+            <p>So parents from any of SF's diverse communities were able to use our
           application, we implemented the Google Translate API. This allowed our
           website to be available in any language, an important issue that many
           parents faced when researching public schools for their children.</p>
-              <img src = {require('./photos/HomePageSpanish.png')} alt = "not loading" width = '750px'/>
-              <span></span>
-        </div>
-        <div className = "row5">
-          <p>The algorithm we developed took the responses of the parents and
-          multiplied them against the initial rankings we gave the schools. Then,
-          we ordered a list based on which schools most resembled the preferences
-          of the parents. We made sure to include key information about the school
-          on the list page, so the parents could scroll through them as efficiently
-          as possible.</p>
+          </div>
+          <div className = "column5">
             <img src = {require('./photos/School Results.png')} alt = "not loading" width = '325px'/>
-            <span></span>
+            <p>The algorithm we developed took the responses of the parents and
+            multiplied them against the initial rankings we gave the schools. Then,
+            we ordered a list based on which schools most resembled the preferences
+            of the parents. We made sure to include key information about the school
+            on the list page, so the parents could scroll through them as efficiently
+            as possible.</p>
+          </div>
         </div>
         <h2>Challenges we faced...</h2>
           <p className = "challenges">
