@@ -120,52 +120,13 @@
 }
 
 .SFSF {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #d9d9d9;
 }
 
-.flexContainer {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.column1 {
-  flex: 1;
-  margin: 75px;
-  justify-content: center;
-  align-items: center;
-}
-
-.column2 {
-  flex: 1;
-  margin: 75px;
-  justify-content: center;
-  align-items: center;
-}
-
-.column3 {
-  flex: 1;
-  margin: 75px;
-  justify-content: center;
-  align-items: center;
-}
-
-.column4 {
-  flex: 1;
-  margin: 75px;
-  justify-content: center;
-  align-items: center;
-}
-
-.column5 {
-  flex: 1;
-  margin: 75px;
-  justify-content: center;
-  align-items: center;
-}
-/*
 .row1 {
   flex: 1;
   flex-direction: row;
@@ -209,7 +170,7 @@
   align-items: center;
   margin-left: 50px;
   margin-right: 50px;
-} */
+}
 
 .challenges {
   margin-left: 50px;
