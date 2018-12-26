@@ -42,8 +42,7 @@ class App extends Component {
   render() {
     if (this.state.aboutMePage){
       return (
-      <body className = "app">
-        <div className = "MainPage">
+      <div className = "MainPage">
           <AppBar className = "menuBar" position="sticky" color= '#cce6ff'>
             <Toolbar variant="dense">
               <MenuItem className= "menuButton" onMouseDown = {() => this.back()}>
@@ -95,8 +94,7 @@ class App extends Component {
             Experience, Research, and Design as well as a minor in Computer Science.
             I created this website to show the projects I've worked on and the
             story behind each of them. Thanks for stopping by, and Go Blue!</p>
-          </div>
-        </body>
+        </div>
       );
     } else if (this.state.projectsPage){
       return(
