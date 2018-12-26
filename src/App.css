@@ -70,7 +70,7 @@
 .ProjectPic2 {
   float: right;
   width: 375px;
-  margin-top: 50px;
+  margin-top: 55px;
 
 }
 
@@ -174,4 +174,13 @@
   align-items: center;
   margin-left: 50px;
   margin-right: 50px;
+}
+
+.challenges {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.caption {
+  font-style: italic;
 }

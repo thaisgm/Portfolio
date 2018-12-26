@@ -42,6 +42,7 @@ class App extends Component {
   render() {
     if (this.state.aboutMePage){
       return (
+      <div className = "app">
         <div className = "MainPage">
           <AppBar className = "menuBar" position="sticky" color= '#cce6ff'>
             <Toolbar variant="dense">
@@ -95,6 +96,7 @@ class App extends Component {
             I created this website to show the projects I've worked on and the
             story behind each of them. Thanks for stopping by, and Go Blue!</p>
           </div>
+        </div>
       );
     } else if (this.state.projectsPage){
       return(
@@ -144,7 +146,6 @@ class ProjectsPage extends Component {
   render() {
     if (this.state.projectsList){
       return (
-        <div className = "app">
         <div className = "ProjectPage">
         <AppBar className = "menuBar" position="sticky" color= '#cce6ff'>
           <Toolbar variant="dense">
@@ -183,7 +184,6 @@ class ProjectsPage extends Component {
             We used React Native and Twillio to make this happen.</p>
             <button className = "ProjectButton2" onMouseDown = {() => this.gifter()}> LEARN MORE...</button>
         </div>
-        </div>
       )
     } else if (this.state.sfsfPage){
       return (
@@ -213,13 +213,13 @@ class SFSFPage extends Component {
           website to alleviate these pains and minimize the education gap currently
           growing in the Bay Area.</p>
             <img src = {require('./photos/gitTeamMarie-RoseRamboz.jpg')} alt = "not loading" width = '750px'/>
-            <span>Photo of me and my Team at GIT Hackathon. Credits to Marie-Rose Ramboz.</span>
+            <span classnName = "caption">Photo of me and my Team at GIT Hackathon. Credits to Marie-Rose Ramboz.</span>
         </div>
         <div className = "row2">
           <p>Our idea was an accessible, quick process that busy parents could use
           to find the best school for their child.</p>
             <img src = {require('./photos/SFDiagram.png')} alt = "not loading" width = '750px'/>
-            <span>Our vision for SF School Finder.</span>
+            <span classnName = "caption">Our vision for SF School Finder.</span>
         </div>
         <div className = "row3">
           <p>We came up with a quiz for parents to take in order to rank the
@@ -248,14 +248,16 @@ class SFSFPage extends Component {
             <span></span>
         </div>
         <h2>Challenges we faced...</h2>
-          <p>Most of the problems we ran into came from the lack of time we had
+          <p className = "challenges">
+          Most of the problems we ran into came from the lack of time we had
           to work on the project. Even pulling an all-nighter only gave us around
           30 hours to bring our idea to life. In order to meet this deadline, we
           decided to hard code a few factors to ensure our prototype was functional.
           For example, rather than implement the Google Maps Matrix API to allow
           users to type in any address and find the distance from the schools,
           we decided to hard code this information from a single address. </p>
-          <p>We also decided to start off with a sample size of 25 schools, stored
+          <p className = "challenges">
+          We also decided to start off with a sample size of 25 schools, stored
           in MongoDB. Most of the information on the school was stored in various
           sites, hidden behind many links. Our plan was to later use web scraping
           to gather the information we needed on all the public schools in SF.
