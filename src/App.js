@@ -42,10 +42,8 @@ class App extends Component {
   render() {
     if (this.state.aboutMePage){
       return (
-      <div className = "MainPage">
-      <div className="bg">
-        <img src='./photos/stadium.jpeg' alt=""/>
-      </div>
+      <html>
+        <div className = "MainPage">
           <AppBar className = "menuBar" position="sticky" color= '#cce6ff'>
             <Toolbar variant="dense">
               <MenuItem className= "menuButton" onMouseDown = {() => this.back()}>
@@ -98,6 +96,7 @@ class App extends Component {
             I created this website to show the projects I've worked on and the
             story behind each of them. Thanks for stopping by, and Go Blue!</p>
         </div>
+      </html>
       );
     } else if (this.state.projectsPage){
       return(
