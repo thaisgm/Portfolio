@@ -268,7 +268,7 @@ class SFSFPage extends Component {
               </div>
             </div>
           </div>
-        <h2>Challenges we faced...</h2>
+        <h2 className = "challengeHeader">Challenges we faced...</h2>
           <p className = "challenges">
           Most of the problems we ran into came from the lack of time we had
           to work on the project. Even pulling an all-nighter only gave us around
