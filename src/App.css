@@ -15,8 +15,7 @@ html {
   margin-top: 100px;
   margin-right: 75px;
   margin-left: 200px;
-  font-weight: bold;
-  color: white;
+  color: black;
 }
 
 .body1 {
@@ -24,7 +23,6 @@ html {
   margin-top: 50px;
   margin-right: 75px;
   margin-left: 200px;
-  font-weight: bold;
   color: black;
 }
 
