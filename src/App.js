@@ -83,7 +83,7 @@ class App extends Component {
             the University of Michigan, and was accepted into the Ross School of
             Business. After my freshman year, I found that I couldn't see myself
             pursuing a traditional business career. I decided to explore a field
-            that I had always love, but never dove into: technology.
+            that I had always loved, but never dove into: technology.
             </p>
             <p className = "body1">After my first structured programming class,
             essentially all I was capable of doing was coding board games in the
@@ -93,7 +93,7 @@ class App extends Component {
             technologies and working on exciting technical projects. When I
             returned to Michigan, I decided to pursue my MicroMasters in User
             Experience, Research, and Design as well as a minor in Computer Science.
-            I created this website to show the projects I've worked on and the
+            I created this website to show some of the projects I've worked on and the
             story behind each of them. Thanks for stopping by, and Go Blue!</p>
         </div>
       </html>
