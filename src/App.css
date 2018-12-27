@@ -25,13 +25,14 @@ html {
   margin-right: 75px;
   margin-left: 200px;
   font-weight: bold;
-  color: white;
+  color: black;
 }
 
 .Slideshow {
   float: left;
   width: 750px;
   margin: 25px;
+  border: 10px solid white;
 }
 
 .ProjectPage {
