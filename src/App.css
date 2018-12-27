@@ -2,11 +2,16 @@
   text-align: center;
 }
 
+.menuButton {
+  font-family: Lucida Console;
+}
+
 .body {
   text-align: center;
   margin-top: 100px;
   margin-right: 75px;
   margin-left: 200px;
+  font-family: Lucida Console;
 }
 
 .body1 {
@@ -14,6 +19,7 @@
   margin-top: 50px;
   margin-right: 75px;
   margin-left: 200px;
+  font-family: Lucida Console;
 }
 
 .Slideshow {
@@ -113,6 +119,7 @@
   font-size: 16px;
   padding: 15px;
   color: black;
+  float: right;
 }
 
 .backBtn:hover {
