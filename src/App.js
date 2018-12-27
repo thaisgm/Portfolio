@@ -61,17 +61,17 @@ class App extends Component {
               <Slide {...properties}>
               <div className="each-slide">
                  <div className="image-container">
-                   <img src={require('./photos/divingphoto.jpg')} alt = "not loading" />
+                   <img className = "slidePic" src={require('./photos/divingphoto.jpg')} alt = "not loading" />
                  </div>
                </div>
                <div className="each-slide">
                  <div className="image-container">
-                   <img src={require('./photos/hittingVsUF.jpg')} alt = "not loading"/>
+                   <img className = "slidePic" src={require('./photos/hittingVsUF.jpg')} alt = "not loading"/>
                  </div>
                </div>
                <div className="each-slide">
                  <div className="image-container">
-                   <img src={require('./photos/teamHighFive.jpg')} alt = "not loading"/>
+                   <img className = "slidePic" src={require('./photos/teamHighFive.jpg')} alt = "not loading"/>
                  </div>
                </div>
               </Slide>
