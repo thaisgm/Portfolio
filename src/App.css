@@ -48,7 +48,7 @@ html {
   margin-top: 100px;
   margin-right: 75px;
   margin-left: 200px;
-  text-shadow: 2px 2px #ff0000;
+  text-shadow: 1px 1px #595959;
 }
 
 .Description1 {
@@ -91,7 +91,7 @@ html {
   margin-top: 350px;
   margin-left: 75px;
   margin-right: 200px;
-  text-shadow: 2px 2px #ff0000;
+  text-shadow: 1px 1px #595959;
 }
 
 .Description2 {
@@ -120,7 +120,7 @@ html {
 .SFTitle {
   margin-left: 50px;
   margin-top: 75px;
-  text-shadow: 2px 2px #ff0000;
+  text-shadow: 1px 1px #595959;
 }
 
 .backBtn {
@@ -179,7 +179,7 @@ html {
 
 .challengeHeader {
   margin-left: 75px;
-  text-shadow: 2px 2px #ff0000;
+  text-shadow: 1px 1px #595959;
 }
 
 .challenges1 {
