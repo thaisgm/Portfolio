@@ -306,7 +306,7 @@ class GifterPage extends Component {
             out and using other passions and skills beyond coding.</p>
             <div className = "item2">
               <div className = "flexContainer2">
-                <img className = "sfPic" src = {require('./photos/GifterDemo.png')} alt = "not loading" width = '325px'/>
+                <img src = {require('./photos/GifterDemo.png')} alt = "not loading" width = '325px'/>
                 <span className = "caption">Our app's opening screen.</span>
               </div>
             </div>
@@ -319,7 +319,7 @@ class GifterPage extends Component {
             and simple UI.</p>
             <div className = "item2">
               <div className = "flexContainer2">
-              <img className = "sfPic" src = {require('./photos/MainScreenDemo.png')} alt = "not loading" width = '325px'/>
+              <img src = {require('./photos/MainScreenDemo.png')} alt = "not loading" width = '325px'/>
               <span className = "caption">The "gifts" users can send their friends.</span>
               </div>
             </div>
