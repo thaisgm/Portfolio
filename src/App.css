@@ -41,7 +41,6 @@ html {
   float: left;
   width: 750px;
   margin: 25px;
-  border: 5px solid black;
 }
 
 .ProjectHeader1 {
@@ -118,7 +117,7 @@ html {
 
 .SFTitle {
   margin-left: 50px;
-  margin-top: 25px;
+  margin-top: 75px;
 }
 
 .backBtn {
@@ -151,6 +150,7 @@ html {
   align-self: center;
   text-align: center;
   margin-left: 50px;
+  font-size: 14;
 }
 
 .item2 {
