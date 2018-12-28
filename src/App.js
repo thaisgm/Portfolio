@@ -268,7 +268,7 @@ class SFSFPage extends Component {
               </div>
             </div>
           </div>
-        <h2 className = "challengeHeader">Challenges we faced...</h2>
+        <h2 className = "challengeHeader">Project Challenges...</h2>
           <p className = "challenges1">
           Most of the problems we ran into came from the lack of time we had
           to work on the project. Even pulling an all-nighter only gave us around
@@ -336,23 +336,16 @@ class GifterPage extends Component {
               <img className = "gift2" src = {require('./photos/twillio.PNG')} alt = "not loading" width = '225px'/>
             </div>
           </div>
-        <h2 className = "challengeHeader">Challenges we faced...</h2>
-          <p className = "challenges1">
-          Most of the problems we ran into came from the lack of time we had
-          to work on the project. Even pulling an all-nighter only gave us around
-          30 hours to bring our idea to life. In order to meet this deadline, we
-          decided to hard code a few factors to ensure our prototype was functional.
-          For example, rather than implement the Google Maps Matrix API to allow
-          users to type in any address and find the distance from the schools,
-          we decided to hard code this information from a single address. </p>
+        <h2 className = "challengeHeader">Project Challenges...</h2>
           <p className = "challenges2">
-          We also decided to start off with a sample size of 25 schools, stored
-          in MongoDB. Most of the information on the school was stored in various
-          sites, hidden behind many links. Our plan was to later use web scraping
-          to gather the information we needed on all the public schools in SF.
-          I was in charge of managing the database, and decided on several factors
-          to rate the schools. These were chosen based on the discussion we had
-          with the SF school board member on what parents looked for in schools.</p>
+          I was the primary coder on this project and most of the issues that
+          arose were resolved quickly. For example, even though it was my first time
+          implementing the Twillio API, in React Native, I was able to apply
+          their documentation quite smoothly to the mobile platform. Also, many of
+          the design decisions were easy to adjust once the flexbox containers
+          were set up and organized. Overall, this app was a pleasure to work on
+          because it was our unique idea that allowed us to be imaginative.
+          </p>
       </div>
     )
   }
