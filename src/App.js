@@ -331,8 +331,8 @@ class GifterPage extends Component {
             <div className = "item2">
               <div className = "flexContainer2">
                 <div className = "flex3">
-                  <img className = "sfPic" src = {require('./photos/fuzzies.png')} alt = "not loading" width = '325px'/>
-                  <img className = "sfPic" src = {require('./photos/twillio.PNG')} alt = "not loading" width = '325px'/>
+                  <img className = "sfPic" src = {require('./photos/fuzzies.png')} alt = "not loading" width = '165px'/>
+                  <img className = "sfPic" src = {require('./photos/twillio.PNG')} alt = "not loading" width = '165px'/>
                 </div>
               <span className = "caption">Our colorful and short quiz for parents.</span>
               </div>
