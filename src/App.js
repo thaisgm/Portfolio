@@ -295,9 +295,66 @@ class GifterPage extends Component {
 
   render() {
     return (
-      <div>
-        <h1>Gifter</h1>
-        <button onMouseDown = {() => this.props.backToProjects()}>Back to Projects List</button>
+      <div className = "SFSF">
+        <h1 className = "SFTitle">Gifter</h1>
+        <button className = "backBtn" onMouseDown = {() => this.props.backToProjects()}>Back to Projects List</button>
+          <div className = "flexContainer1">
+            <p className = "item1">Gifter is an mobile app I made in a group with two other developers.
+            We wanted to build the app utilizing both our creative backgrounds
+            (in graphic design and writing) and our knowledge of React Native.
+            We finished working in less than a day and truly enjoyed branching
+            out and using other passions and skills beyond coding.</p>
+            <div className = "item2">
+              <div className = "flexContainer2">
+                <img className = "sfPic" src = {require('./photos/GifterDemo.jpg')} alt = "not loading" width = '325px'/>
+                <span className = "caption">Our app's opening screen.</span>
+              </div>
+            </div>
+          </div>
+          <div className = "flexContainer1">
+            <p className = "item1">When you open Gifter, you are greeted by a screen
+            with bright colors and 6 categories. These are labelled Joke, Fortune,
+            Flirt, Fuzzies, Mike-ism (dedicated to a group member), and Roast. I
+            was in charge of app development, and I used flexbox to create the fun
+            and simple UI.</p>
+            <div className = "item2">
+              <div className = "flexContainer2">
+              <img className = "sfPic" src = {require('./photos/MainScreenDemo.jpg')} alt = "not loading" width = '325px'/>
+              <span className = "caption">The "gifts" users can send their friends.</span>
+              </div>
+            </div>
+          </div>
+          <div className = "flexContainer1">
+            <p className = "item1">Next, I worked on the backend by implementing
+            the Twillio API so users can send a "gift" (either a joke, roast,
+              flirt, etc.) to their friends from a Twillio number.</p>
+            <div className = "item2">
+              <div className = "flexContainer2">
+                <div className = "flex3">
+                  <img className = "sfPic" src = {require('./photos/photos/fuzzies.png')} alt = "not loading" width = '325px'/>
+                  <img className = "sfPic" src = {require('./photos/photos/twillio.png')} alt = "not loading" width = '325px'/>
+                </div>
+              <span className = "caption">Our colorful and short quiz for parents.</span>
+              </div>
+            </div>
+          </div>
+        <h2 className = "challengeHeader">Challenges we faced...</h2>
+          <p className = "challenges1">
+          Most of the problems we ran into came from the lack of time we had
+          to work on the project. Even pulling an all-nighter only gave us around
+          30 hours to bring our idea to life. In order to meet this deadline, we
+          decided to hard code a few factors to ensure our prototype was functional.
+          For example, rather than implement the Google Maps Matrix API to allow
+          users to type in any address and find the distance from the schools,
+          we decided to hard code this information from a single address. </p>
+          <p className = "challenges2">
+          We also decided to start off with a sample size of 25 schools, stored
+          in MongoDB. Most of the information on the school was stored in various
+          sites, hidden behind many links. Our plan was to later use web scraping
+          to gather the information we needed on all the public schools in SF.
+          I was in charge of managing the database, and decided on several factors
+          to rate the schools. These were chosen based on the discussion we had
+          with the SF school board member on what parents looked for in schools.</p>
       </div>
     )
   }
