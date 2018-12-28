@@ -269,7 +269,7 @@ class SFSFPage extends Component {
             </div>
           </div>
         <h2 className = "challengeHeader">Challenges we faced...</h2>
-          <p className = "challenges">
+          <p className = "challenges1">
           Most of the problems we ran into came from the lack of time we had
           to work on the project. Even pulling an all-nighter only gave us around
           30 hours to bring our idea to life. In order to meet this deadline, we
@@ -277,7 +277,7 @@ class SFSFPage extends Component {
           For example, rather than implement the Google Maps Matrix API to allow
           users to type in any address and find the distance from the schools,
           we decided to hard code this information from a single address. </p>
-          <p className = "challenges">
+          <p className = "challenges2">
           We also decided to start off with a sample size of 25 schools, stored
           in MongoDB. Most of the information on the school was stored in various
           sites, hidden behind many links. Our plan was to later use web scraping

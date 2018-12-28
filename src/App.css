@@ -150,6 +150,7 @@ html {
   align-self: center;
   text-align: center;
   margin-left: 75px;
+  margin-right: 75px;
   font-size: 14;
 }
 
@@ -169,13 +170,18 @@ html {
 }
 
 .challengeHeader {
-  margin-left: 50px;
+  margin-left: 75px;
 }
 
-.challenges {
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 100px;
+.challenges1 {
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.challenges2 {
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-bottom: 150px;
 }
 
 .caption {
