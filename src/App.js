@@ -329,8 +329,8 @@ class GifterPage extends Component {
             the Twillio API so users can send a "gift" (either a joke, roast,
               flirt, etc.) to their friends from a Twillio number.</p>
             <div className = "item2">
-              <img className = "sfPic" src = {require('./photos/fuzzies.png')} alt = "not loading" width = '165px'/>
-              <img className = "sfPic" src = {require('./photos/twillio.PNG')} alt = "not loading" width = '165px'/>
+              <img className = "gift1" src = {require('./photos/fuzzies.png')} alt = "not loading" width = '165px'/>
+              <img className = "gift2" src = {require('./photos/twillio.PNG')} alt = "not loading" width = '165px'/>
             </div>
           </div>
         <h2 className = "challengeHeader">Challenges we faced...</h2>
