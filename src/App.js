@@ -316,7 +316,8 @@ class GifterPage extends Component {
             with bright colors and 6 categories. These are labelled Joke, Fortune,
             Flirt, Fuzzies, Mike-ism (dedicated to a group member), and Roast. I
             was in charge of app development, and I used flexbox to create the fun
-            and simple UI.</p>
+            and simple UI. I worked with another member of the team to design
+            graphics in photoshop to illustrate each category.</p>
             <div className = "item2">
               <div className = "flexContainer2">
               <img src = {require('./photos/MainScreenDemo.png')} alt = "not loading" width = '325px'/>
@@ -327,7 +328,9 @@ class GifterPage extends Component {
           <div className = "flexContainer1">
             <p className = "item1">Next, I worked on the backend by implementing
             the Twillio API so users can send a "gift" (either a joke, roast,
-              flirt, etc.) to their friends from a Twillio number.</p>
+            flirt, etc.) to their friends from a Twillio number. The messages
+            are randomly selected from a database of texts that a member of our
+            team who has experience in comedic sketches came up with.</p>
             <div className = "item2">
               <img className = "gift1" src = {require('./photos/fuzzies.png')} alt = "not loading" width = '225px'/>
               <img className = "gift2" src = {require('./photos/twillio.PNG')} alt = "not loading" width = '225px'/>
