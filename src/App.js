@@ -214,7 +214,7 @@ class SFSFPage extends Component {
             growing in the Bay Area.</p>
             <div className = "item2">
               <div className = "flexContainer2">
-                <img src = {require('./photos/gitTeamMarie-RoseRamboz.jpg')} alt = "not loading" width = '650px'/>
+                <img className = "sfPic" src = {require('./photos/gitTeamMarie-RoseRamboz.jpg')} alt = "not loading" width = '650px'/>
                 <span className = "caption">Photo of me and my Team at GIT Hackathon. Credits to Marie-Rose Ramboz.</span>
               </div>
             </div>
@@ -225,7 +225,7 @@ class SFSFPage extends Component {
             to make an informed decision was distributed all over the internet and took hours to collect.</p>
             <div className = "item2">
               <div className = "flexContainer2">
-              <img src = {require('./photos/SFDiagram.png')} alt = "not loading" width = '650px'/>
+              <img className = "sfPic" src = {require('./photos/SFDiagram.png')} alt = "not loading" width = '650px'/>
               <span className = "caption">Our vision for SF School Finder.</span>
               </div>
             </div>
@@ -237,7 +237,7 @@ class SFSFPage extends Component {
             a fun UX with simple and short questions.</p>
             <div className = "item2">
               <div className = "flexContainer2">
-              <img src = {require('./photos/QuizPage.png')} alt = "not loading" width = '650px'/>
+              <img className = "sfPic" src = {require('./photos/QuizPage.png')} alt = "not loading" width = '650px'/>
               <span className = "caption">Our colorful and short quiz for parents.</span>
               </div>
             </div>
@@ -249,7 +249,7 @@ class SFSFPage extends Component {
             parents faced when researching public schools for their children.</p>
             <div className = "item2">
               <div className = "flexContainer2">
-              <img src = {require('./photos/HomePageSpanish.png')} alt = "not loading" width = '650px'/>
+              <img className = "sfPic" src = {require('./photos/HomePageSpanish.png')} alt = "not loading" width = '650px'/>
               <span className = "caption">Our website's homepage in Spanish.</span>
               </div>
             </div>
@@ -263,7 +263,7 @@ class SFSFPage extends Component {
             as possible.</p>
             <div className = "item2">
               <div className = "flexContainer2">
-              <img src = {require('./photos/School Results.png')} alt = "not loading" width = '325px'/>
+              <img className = "sfPic" src = {require('./photos/School Results.png')} alt = "not loading" width = '325px'/>
               <span className = "caption">An example of the output parents would receive.</span>
               </div>
             </div>
