@@ -202,7 +202,7 @@ class SFSFPage extends Component {
   render() {
     return (
       <div className = "SFSF">
-        <h1>San Francisco School Finder</h1>
+        <h1 className = "SFTitle">San Francisco School Finder</h1>
         <button className = "backBtn" onMouseDown = {() => this.props.backToProjects()}>Back to Projects List</button>
           <div className = "flexContainer1">
             <p className = "item1">In the summer of 2018, I attended a hackathon with a group of 4 other
