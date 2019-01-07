@@ -208,7 +208,7 @@ class ProjectsPage extends Component {
               based on the quality of their work, allowing them to achieve more exposure.
               The aim is to inspire young people to be creative, write their own stories, and who knows...
               maybe they'll write the next best seller.</p>
-              <button className = "ProjectButton">In Progress...</button>
+              <button className = "ProgessButton">IN PROGRESS...</button>
             </div>
           </div>
         </div>
