@@ -206,3 +206,20 @@ html {
 .gift1 {
   margin-right: 100px;
 }
+
+.fContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.fItem {
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemText {
+  flex-direction: column;
+  text-align: center;
+}
