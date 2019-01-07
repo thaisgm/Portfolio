@@ -163,7 +163,7 @@ class ProjectsPage extends Component {
         <div className = "fContainer">
           <div className = "fItem">
             <div className = "itemPic">
-              <img className = "ProjectPic1" src = {require('./photos/HomePage.png')} alt = "not loading"/>
+              <img src = {require('./photos/HomePage.png')} alt = "not loading" width = '750px'/>
             </div>
             <div className = "itemText">
               <h2>San Francisco School Finder</h2>
@@ -176,12 +176,12 @@ class ProjectsPage extends Component {
               schools without the chance of attending another. We aimed to solve this issue by
               creating a website that allowed parents to easily find the right school
               for their child by rating a few preferences.</p>
-              <button className = "ProjectButton1" onMouseDown = {() => this.sfsf()}>LEARN MORE...</button>
+              <button className = "ProjectButton" onMouseDown = {() => this.sfsf()}>LEARN MORE...</button>
             </div>
           </div>
           <div className = "fItem">
             <div className = "itemPic">
-              <img className = "ProjectPic2b" src = {require('./photos/MainScreenDemo.png')} alt = "not loading"/>
+              <img src = {require('./photos/MainScreenDemo.png')} alt = "not loading" width = '325px'/>
             </div>
             <div className = "itemText">
               <h2>Gifter</h2>
@@ -192,7 +192,7 @@ class ProjectsPage extends Component {
               was an expansion of the popularity of emoticons by sending something more
               significant: a uniquely curated, one-of-a-kind content text message.
               We used React Native and Twillio to make this happen.</p>
-              <button className = "ProjectButton2" onMouseDown = {() => this.gifter()}> LEARN MORE...</button>
+              <button className = "ProjectButton" onMouseDown = {() => this.gifter()}> LEARN MORE...</button>
             </div>
           </div>
         </div>
