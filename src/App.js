@@ -195,6 +195,22 @@ class ProjectsPage extends Component {
               <img src = {require('./photos/MainScreenDemo.png')} alt = "not loading" width = '325px'/>
             </div>
           </div>
+          <div className = "fItem">
+            <div className = "itemPic">
+              <img src = {require('./photos/dropYourStory.png')} alt = "not loading" width = '750px'/>
+            </div>
+            <div className = "itemText">
+              <h2>Drop Your Story</h2>
+              <p>This is a current project of mine that is still under development. The end goal is an
+              online platform where writers can create an account and "drop their story". By this, I mean
+              they can post snippets of their work, and as they attract readers, they can
+              charge a small fee for the next chapter. Writers can be upvoted by the community
+              based on the quality of their work, allowing them to achieve more exposure.
+              The aim is to inspire young people to be creative, write their own stories, and who knows...
+              maybe they'll write the next best seller.</p>
+              <button className = "ProjectButton">In Progress...</button>
+            </div>
+          </div>
         </div>
       </div>
       )
