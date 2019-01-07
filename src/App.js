@@ -180,9 +180,6 @@ class ProjectsPage extends Component {
             </div>
           </div>
           <div className = "fItem">
-            <div className = "itemPic">
-              <img src = {require('./photos/MainScreenDemo.png')} alt = "not loading" width = '325px'/>
-            </div>
             <div className = "itemText">
               <h2>Gifter</h2>
               <p>Gifter is a fun, mobile application I worked
@@ -193,6 +190,9 @@ class ProjectsPage extends Component {
               significant: a uniquely curated, one-of-a-kind content text message.
               We used React Native and Twillio to make this happen.</p>
               <button className = "ProjectButton" onMouseDown = {() => this.gifter()}> LEARN MORE...</button>
+            </div>
+            <div className = "itemPic">
+              <img src = {require('./photos/MainScreenDemo.png')} alt = "not loading" width = '325px'/>
             </div>
           </div>
         </div>

@@ -210,6 +210,7 @@ html {
 .fContainer {
   display: flex;
   flex-direction: column;
+  flex: 2;
 }
 
 .fItem {
@@ -220,6 +221,7 @@ html {
 }
 
 .itemText {
+  flex: 1;
   flex-direction: column;
   text-align: center;
   align-self: center;
