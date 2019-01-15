@@ -32,6 +32,11 @@ html {
   margin: 25px;
 }
 
+ img {
+   max-width: 100%;
+   height: auto;
+}
+
 .ProjectPage {
   overflow: auto;
   background-color: #d9d9d9;
@@ -141,14 +146,14 @@ html {
 }
 
 .itemPic {
-  margin: 50px;
+  padding: 50px;
 }
 
 .itemText {
   flex-direction: column;
   text-align: center;
   align-self: center;
-  margin: 25px;
+  padding: 50px;
 }
 
 .ProjectButton {

@@ -74,6 +74,16 @@ class App extends Component {
                    <img className = "slidePic" src={require('./photos/teamHighFive.jpg')} alt = "not loading"/>
                  </div>
                </div>
+               <div className="each-slide">
+                 <div className="image-container">
+                   <img className = "slidePic" src={require('./photos/dugoutPic.png')} alt = "not loading"/>
+                 </div>
+               </div>
+               <div className="each-slide">
+                 <div className="image-container">
+                   <img className = "slidePic" src={require('./photos/maizeTeam.JPG')} alt = "not loading"/>
+                 </div>
+               </div>
               </Slide>
           </div>
             <p className = "body"> My name is Thais Gonzalez.
@@ -163,7 +173,7 @@ class ProjectsPage extends Component {
         <div className = "fContainer">
           <div className = "fItem">
             <div className = "itemPic">
-              <img src = {require('./photos/HomePage.png')} alt = "not loading" width = '750px'/>
+              <img src = {require('./photos/HomePage.png')} alt = "not loading" />
             </div>
             <div className = "itemText">
               <h2>San Francisco School Finder</h2>
@@ -192,12 +202,12 @@ class ProjectsPage extends Component {
               <button className = "ProjectButton" onMouseDown = {() => this.gifter()}> LEARN MORE...</button>
             </div>
             <div className = "itemPic">
-              <img src = {require('./photos/MainScreenDemo.png')} alt = "not loading" width = '325px'/>
+              <img src = {require('./photos/MainScreenDemo.png')} alt = "not loading" />
             </div>
           </div>
           <div className = "fItem">
             <div className = "itemPic">
-              <img src = {require('./photos/dropYourStory.png')} alt = "not loading" width = '750px'/>
+              <img src = {require('./photos/dropYourStory.png')} alt = "not loading" />
             </div>
             <div className = "itemText">
               <h2>Drop Your Story</h2>
